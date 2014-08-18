@@ -91,6 +91,11 @@ int write_modbus(int pd, uint8_t * req, int nb)
 	return 0;
 }
 
+int read_modbus(int pd, uint8_t * req, int nb)
+{
+	return 0;
+}
+
 /* modbus read input bits */
 int modbus_RIB(int pd, int16_t address, int nb, uint8_t *dst )
 {
